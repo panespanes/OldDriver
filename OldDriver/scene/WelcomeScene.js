@@ -1,6 +1,8 @@
 'use strict';
 
-import React, { Component } from 'react';
+import React, {
+  Component
+} from 'react';
 
 import {
   StyleSheet,
@@ -8,7 +10,7 @@ import {
   Text,
   Image,
 } from 'react-native';
-
+import HomeScene from './HomeScene'
 class WelcomeScene extends Component {
   render() {
     return (
@@ -21,6 +23,7 @@ class WelcomeScene extends Component {
         </Text>
         <Image source = {require('../images/logo.png')}></Image>
       </View>
+
     );
   }
 }
