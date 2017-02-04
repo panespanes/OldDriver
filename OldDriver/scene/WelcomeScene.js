@@ -19,7 +19,7 @@ class WelcomeScene extends Component {
           老司机
         </Text>
         <Text style={styles.instructions}>
-          机动车违章查询
+          快递查询
         </Text>
         <Image source = {require('../images/logo.png')}></Image>
       </View>
